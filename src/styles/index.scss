@@ -1,0 +1,22 @@
+// 导入样式表reset;
+@use "./reset.scss";
+
+.a-link{
+    text-decoration: none;
+    color: var(--link);
+    cursor: pointer;
+  }
+  .el-dropdown :first-child {
+    outline:none ;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .search-form {
+    background-color: #fff;
+    padding: 20px 0 0 10px;
+    width: 100%;
+    box-shadow: var(--el-box-shadow-light);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}

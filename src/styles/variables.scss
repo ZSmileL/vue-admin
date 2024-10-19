@@ -1,0 +1,12 @@
+:root{
+    --link: #409eff;
+    --text2:#61666d;
+    --text1:#9499A0;
+    --pink:#FF6699;
+    --sidebar-logo-background:#2d3748;
+    --menu-background: #304156;
+  }
+  $navbar-height:50px;
+  $sidebar-width: 210px; // 侧边栏宽度
+  $sidebar-logo-background: var(--sidebar-logo-background); // 侧边栏 Logo 背景色
+  $menu-background: var(--menu-background); // 菜单背景色
